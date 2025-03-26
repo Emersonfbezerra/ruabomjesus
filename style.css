@@ -18,8 +18,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 main{
+    padding: 20px;
+    border-radius: 10px;
     display: block;
     background-color: #fff;
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .container{
@@ -75,10 +81,12 @@ section.module.parallax::after{
 
 section.module.parallax-1{
     background-image: url(img/imag01.jpeg);
+    width: 100%;
 }
 
 section.module.parallax-2{
     background-image: url(img/img02.jpeg);
+    width: 100%;
 }
 
 section.module.parallax-3{
