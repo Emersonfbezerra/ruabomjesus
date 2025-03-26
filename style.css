@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+    selection.module.parallax {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
 body{
     margin: 0;
     padding: 0;
